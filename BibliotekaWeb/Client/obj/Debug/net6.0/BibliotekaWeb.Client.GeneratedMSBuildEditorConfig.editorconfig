@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BibliotekaWeb.Client
+build_property.RootNamespace = BibliotekaWeb.Client
+build_property.ProjectDir = C:\Users\#\Desktop\BibliotekaWEB_SQLITE\BibliotekaWeb\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\#\Desktop\BibliotekaWEB_SQLITE\BibliotekaWeb\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Pages/BookDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0RldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Pages/ConfirmModal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybU1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Pages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Pages/Info.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lcayyw5uky
+
+[C:/Users/\#/Desktop/BibliotekaWEB_SQLITE/BibliotekaWeb/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-48wpk8coog

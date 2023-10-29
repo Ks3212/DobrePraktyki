@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Server\\BibliotekaWeb.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Client\\BibliotekaWeb.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Client\\BibliotekaWeb.Client.csproj",
+        "projectName": "BibliotekaWeb.Client",
+        "projectPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Client\\BibliotekaWeb.Client.csproj",
+        "packagesPath": "C:\\Users\\kys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\BibliotekaWeb.Shared.csproj": {
+                "projectPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\BibliotekaWeb.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Server\\BibliotekaWeb.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Server\\BibliotekaWeb.Server.csproj",
+        "projectName": "BibliotekaWeb.Server",
+        "projectPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Server\\BibliotekaWeb.Server.csproj",
+        "packagesPath": "C:\\Users\\kys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Client\\BibliotekaWeb.Client.csproj": {
+                "projectPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Client\\BibliotekaWeb.Client.csproj"
+              },
+              "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\BibliotekaWeb.Shared.csproj": {
+                "projectPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\BibliotekaWeb.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\BibliotekaWeb.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\BibliotekaWeb.Shared.csproj",
+        "projectName": "BibliotekaWeb.Shared",
+        "projectPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\BibliotekaWeb.Shared.csproj",
+        "packagesPath": "C:\\Users\\kys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kys\\Desktop\\BibliotekaWeb — kopia\\BibliotekaWeb\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

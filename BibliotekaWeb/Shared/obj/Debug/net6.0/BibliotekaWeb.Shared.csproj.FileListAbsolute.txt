@@ -1,0 +1,36 @@
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.deps.json
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.dll
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.pdb
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.csproj.AssemblyReference.cache
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.AssemblyInfoInputs.cache
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.AssemblyInfo.cs
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.csproj.CoreCompileInputs.cache
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.dll
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\refint\BibliotekaWeb.Shared.dll
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.pdb
+C:\Users\kys\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\ref\BibliotekaWeb.Shared.dll
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.deps.json
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.dll
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.pdb
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.csproj.AssemblyReference.cache
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.AssemblyInfoInputs.cache
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.AssemblyInfo.cs
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.csproj.CoreCompileInputs.cache
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.dll
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\refint\BibliotekaWeb.Shared.dll
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.pdb
+C:\Users\#\Desktop\BibliotekaWeb\BibliotekaWeb\Shared\obj\Debug\net6.0\ref\BibliotekaWeb.Shared.dll
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.deps.json
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.dll
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\bin\Debug\net6.0\BibliotekaWeb.Shared.pdb
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.csproj.AssemblyReference.cache
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.AssemblyInfoInputs.cache
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.AssemblyInfo.cs
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.csproj.CoreCompileInputs.cache
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.dll
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\refint\BibliotekaWeb.Shared.dll
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\BibliotekaWeb.Shared.pdb
+C:\Users\kys\Desktop\BibliotekaWeb — kopia\BibliotekaWeb\Shared\obj\Debug\net6.0\ref\BibliotekaWeb.Shared.dll

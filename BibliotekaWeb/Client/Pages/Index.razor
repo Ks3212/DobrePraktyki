@@ -1,0 +1,58 @@
+﻿@page "/"
+@using BibliotekaWeb.Shared;
+@inject HttpClient Http
+<h3 class="mb-4">Wszyskie książki:</h3>
+
+@if (loading)
+{
+    <div class="loading-animation">
+        <i class="fas fa-spinner fa-spin"></i>
+    </div>
+}
+else
+{
+    <div class="card-container">
+        @for (var i = 0; i < books.Count; i += 4)
+        {
+            <div class="card-row row m-2">
+                @for (var j = i; j < i + 4 && j < books.Count; j++)
+                {
+                    var book = books[j];
+                    <div class="card col-xxl-3 col-xl-6 scale">
+                        <img src="data:image;base64,@Convert.ToBase64String(book.Img)" alt="Book Image" class="card-img-top m-2" style="object-fit: contain; height: 200px; width: 100%;" />
+                        <div class="card-body p-2 text-center pt-1">
+                            <h4 class="card-title text-truncate">@book.Title</h4>
+                            <p class="card-text">Autor: @book.Author</p>
+                            <p class="card-text">Gatunek: @book.Type</p>
+                            <div class="btn-group">
+                                <a href='/delete/@book.ID/@isDelete' class="btn btn-outline-danger scale me-1" role="button">
+                                    Usuń
+                                </a>
+                                <a href='/Create/edit/@book.ID' class="btn btn-outline-success scale me-1" role="button">
+                                    Zmień
+                                </a>
+                                <a href='/Info/@book.ID' class="btn btn-outline-primary scale" role="button">
+                                    Więcej
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+}
+@code {
+    protected bool isDelete = true;
+    protected List<Book>? books = new();
+    protected bool loading = true;
+    protected override async Task OnInitializedAsync()
+    {
+        await GetBook();
+    }
+    protected async Task GetBook()
+    {
+        books = await Http.GetFromJsonAsync<List<Book>>("api/Book");
+        loading = false;
+    }
+}

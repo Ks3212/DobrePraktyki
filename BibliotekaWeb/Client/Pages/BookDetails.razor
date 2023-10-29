@@ -1,0 +1,56 @@
+﻿@page "/BookDetails"
+@using BibliotekaWeb.Shared;
+@inject HttpClient Http
+<h3>BookDetails</h3>
+
+@if (loading)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="card-container">
+        @for (var i = 0; i < books.Count; i += 4)
+        {
+            <div class="card-row row m-2">
+                @for (var j = i; j < i + 4 && j < books.Count; j++)
+                {
+                    var book = books[j];
+                    <div class="card col-xxl-3 col-xl-6">
+                        <img src="data:image;base64,@Convert.ToBase64String(book.Img)" alt="Book Image" class="card-img-top m-2" style="object-fit: contain; height: 200px; width: 100%;" />
+                        <div class="card-body p-2 text-center pt-1">
+                            <h4 class="card-title">@book.Title</h4>
+                            <p class="card-text">Author: @book.Author</p>
+                            <p class="card-text">Type: @book.Type</p>
+                            <div class="btn-group">
+                                <a href='/book/delete/@book.ID' class="btn btn-outline-danger" role="button">
+                                    Delete
+                                </a>
+                                <a href='/Create/edit/@book.ID' class="btn btn-success" role="button">
+                                    Update
+                                </a>
+                                <a href='/Create/edit/@book.ID' class="btn btn-primary" role="button">
+                                    Więcej
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+}
+
+@code {
+    protected List<Book> books = new();
+    protected bool loading = true;
+    protected override async Task OnInitializedAsync()
+    {
+        await GetBook();
+    }
+    protected async Task GetBook()
+    {
+        books = await Http.GetFromJsonAsync<List<Book>>("api/Book");
+        loading = false;
+    }
+}
